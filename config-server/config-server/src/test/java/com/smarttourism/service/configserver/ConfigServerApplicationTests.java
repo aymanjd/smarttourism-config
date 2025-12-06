@@ -1,10 +1,10 @@
-package com.smarttourism.service_tourisme;
+package com.smarttourism.service.configserver;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ServiceTourismeApplicationTests {
+class ConfigServerApplicationTests {
 
 	@Test
 	void contextLoads() {

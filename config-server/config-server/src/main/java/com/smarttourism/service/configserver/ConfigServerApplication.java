@@ -1,12 +1,13 @@
-package com.smarttourism.service_tourisme;
+package com.smarttourism.service.configserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ServiceTourismeApplication {
+public class ConfigServerApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ServiceTourismeApplication.class, args);
+		SpringApplication.run(ConfigServerApplication.class, args);
 	}
+
 }

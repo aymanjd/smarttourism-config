@@ -1,0 +1,230 @@
+{
+  "regions": [
+    {
+      "region": "Marrakech-Safi",
+      "cities": [
+        {
+          "id": 1,
+          "name": "Marrakech",
+          "description": "Ville rouge : jardins, palais, souks, désert et culture millénaire.",
+          "imageUrl": "https://images.unsplash.com/photo-1542051841857-5f90071e7989?auto=format&fit=crop&w=1200&q=80",
+          "price": 4.7,
+          "meteo": "ensoleillé",
+          "duree": "2-4 jours",
+          "activities": [
+            "Place Jemaa El-Fna",
+            "Jardin Majorelle",
+            "Palais Bahia",
+            "Désert d’Agafay"
+          ]
+        },
+        {
+          "id": 2,
+          "name": "Essaouira",
+          "description": "Ville portuaire artistique et ventée, réputée pour sa forteresse et son surf.",
+          "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=1200&q=80",
+          "price": 4.6,
+          "meteo": "vent léger",
+          "duree": "1-3 jours",
+          "activities": [
+            "Skala de la Kasbah",
+            "Médina UNESCO",
+            "Surf & Kitesurf",
+            "Plage"
+          ]
+        },
+        {
+          "id": 3,
+          "name": "Safi",
+          "description": "Capitale de la poterie marocaine et ville côtière historique.",
+          "imageUrl": "https://images.unsplash.com/photo-1534081333815-ae5019106622?auto=format&fit=crop&w=1200&q=80",
+          "price": 4.1,
+          "meteo": "doux",
+          "duree": "1-2 jours",
+          "activities": [
+            "Musée National de Céramique",
+            "Vieille Médina",
+            "Corniche de Safi"
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Souss-Massa",
+      "cities": [
+        {
+          "id": 4,
+          "name": "Agadir",
+          "description": "Ville balnéaire moderne avec plage, corniche et activités nautiques.",
+          "imageUrl": "https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1200&q=80",
+          "price": 4.4,
+          "meteo": "ensoleillé",
+          "duree": "2-3 jours",
+          "activities": [
+            "Corniche",
+            "Kasbah",
+            "Souk El Had",
+            "Jet-ski"
+          ]
+        },
+        {
+          "id": 5,
+          "name": "Taghazout",
+          "description": "Village mondial du surf et du lifestyle chill.",
+          "imageUrl": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc",
+          "price": 4.5,
+          "meteo": "ensoleillé",
+          "duree": "2-4 jours",
+          "activities": [
+            "Surf",
+            "Yoga",
+            "Plage",
+            "Cafés et rooftops"
+          ]
+        },
+        {
+          "id": 6,
+          "name": "Tiznit",
+          "description": "Ville réputée pour ses bijoux en argent et sa médina authentique.",
+          "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+          "price": 4.2,
+          "meteo": "sec",
+          "duree": "1-2 jours",
+          "activities": [
+            "Médina",
+            "Souks",
+            "Bijoux Amazigh"
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Tanger-Tétouan-Al Hoceima",
+      "cities": [
+        {
+          "id": 7,
+          "name": "Tanger",
+          "description": "Ville cosmopolite : histoire, plages et ambiance artistique.",
+          "imageUrl": "https://images.unsplash.com/photo-1579546929518-9e396f3cc809",
+          "price": 4.5,
+          "meteo": "ensoleillé",
+          "duree": "2-3 jours",
+          "activities": [
+            "Kasbah",
+            "Cap Spartel",
+            "Grottes d'Hercule",
+            "Marina Bay"
+          ]
+        },
+        {
+          "id": 8,
+          "name": "Chefchaouen",
+          "description": "Perle bleue du Maroc : ruelles bleues et montagnes.",
+          "imageUrl": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee",
+          "price": 4.8,
+          "meteo": "nuageux",
+          "duree": "1-2 jours",
+          "activities": [
+            "Randonnée",
+            "Akchour",
+            "Place Outa El Hammam"
+          ]
+        },
+        {
+          "id": 9,
+          "name": "Al Hoceima",
+          "description": "Magnifiques plages du Rif et réserves naturelles.",
+          "imageUrl": "https://images.unsplash.com/photo-1507525428034-b723cf961d3e",
+          "price": 4.3,
+          "meteo": "ensoleillé",
+          "duree": "2-3 jours",
+          "activities": [
+            "Plage Quemado",
+            "Parc National",
+            "Corniche"
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Fès-Meknès",
+      "cities": [
+        {
+          "id": 10,
+          "name": "Fès",
+          "description": "Capitale spirituelle : médina, tanneries et artisanat.",
+          "imageUrl": "https://images.unsplash.com/photo-1503264116251-35a269479413",
+          "price": 4.4,
+          "meteo": "doux",
+          "duree": "2-4 jours",
+          "activities": [
+            "Médina Fes El Bali",
+            "Tanneries Chouara",
+            "Universités Qarawiyine"
+          ]
+        },
+        {
+          "id": 11,
+          "name": "Meknès",
+          "description": "Ville impériale : architecture, portes monumentales et vignobles.",
+          "imageUrl": "https://images.unsplash.com/photo-1524492412937-bf2ac0a5b0e1",
+          "price": 4.3,
+          "meteo": "doux",
+          "duree": "1-3 jours",
+          "activities": [
+            "Bab Mansour",
+            "Heri Es Souani",
+            "Volubilis"
+          ]
+        },
+        {
+          "id": 12,
+          "name": "Ifrane",
+          "description": "Surnommée la petite Suisse : montagnes, neige et lacs.",
+          "imageUrl": "https://images.unsplash.com/photo-1600836860465-b8df247e8042",
+          "price": 4.6,
+          "meteo": "froid",
+          "duree": "1-3 jours",
+          "activities": [
+            "Lac Dait Aoua",
+            "Centre-ville européen",
+            "Ski Michlifen"
+          ]
+        }
+      ]
+    },
+    {
+      "region": "Drâa-Tafilalet",
+      "cities": [
+        {
+          "id": 13,
+          "name": "Merzouga",
+          "description": "Dunes de l’erg Chebbi : désert et bivouac.",
+          "imageUrl": "https://images.unsplash.com/photo-1501785888041-af3ef285b470",
+          "price": 4.9,
+          "meteo": "chaud",
+          "duree": "1-2 jours",
+          "activities": [
+            "Safari désert",
+            "Chameaux",
+            "Coucher de soleil"
+          ]
+        },
+        {
+          "id": 14,
+          "name": "Ouarzazate",
+          "description": "Hollywood marocain : studios de cinéma, kasbahs.",
+          "imageUrl": "https://images.unsplash.com/photo-1519681393784-d120267933ba",
+          "price": 4.5,
+          "meteo": "chaud",
+          "duree": "1-2 jours",
+          "activities": [
+            "Ait Ben Haddou",
+            "Studios Atlas",
+            "Musée du cinéma"
+          ]
+        }
+      ]
+    }
+  ]
+}

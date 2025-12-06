@@ -1,0 +1,244 @@
+/* --- Global --- */
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: "Segoe UI", Arial, sans-serif;
+    background: #f5f5f5;
+    color: #222;
+}
+
+/* --- Header / Navbar --- */
+header.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px 40px;
+    background: linear-gradient(90deg, #0b5ed7, #1d4ed8);
+    color: white;
+    box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.header-logo {
+    font-weight: 800;
+    font-size: 22px;
+    letter-spacing: 1px;
+}
+
+.header-logo span {
+    color: #ffb703;
+}
+
+nav.main-nav a {
+    color: white;
+    margin: 0 12px;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+nav.main-nav a:hover {
+    text-decoration: underline;
+}
+
+/* --- Footer --- */
+footer.main-footer {
+    text-align: center;
+    padding: 18px;
+    background: #0b5ed7;
+    color: white;
+    margin-top: 40px;
+    font-size: 14px;
+}
+
+/* --- Page d'accueil (index) --- */
+.hero {
+    position: relative;
+    background: url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?auto=format&fit=crop&w=1500&q=80')
+    center/cover no-repeat;
+    padding: 140px 20px;
+    text-align: center;
+    color: white;
+}
+
+.hero::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.55), rgba(0,0,0,0.7));
+}
+
+.hero-content {
+    position: relative;
+    max-width: 700px;
+    margin: auto;
+}
+
+.hero h1 {
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.hero p {
+    font-size: 16px;
+    margin-bottom: 25px;
+}
+
+.btn-primary {
+    background: #ffb703;
+    padding: 12px 28px;
+    border-radius: 999px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    color: #222;
+}
+
+.btn-primary:hover {
+    background: #ffd166;
+}
+
+/* --- Features (index) --- */
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px 20px 10px;
+}
+
+.feature-card {
+    background: white;
+    padding: 20px;
+    width: 280px;
+    border-radius: 14px;
+    box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.feature-card h3 {
+    margin-top: 10px;
+}
+
+/* --- Destinations page --- */
+.page-header {
+    text-align: center;
+    margin: 30px 0 10px;
+}
+
+.page-header h1 {
+    margin: 0;
+    font-size: 30px;
+    color: #1d4ed8;
+}
+
+.page-header p {
+    margin: 5px 0 0;
+    color: #555;
+}
+
+/* Filtres */
+.filters {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin: 10px 0 20px;
+}
+
+.filters select {
+    padding: 8px 12px;
+    border-radius: 999px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Grille de destinations */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+    padding: 0 25px 30px;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.destination-card {
+    background: white;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    overflow: hidden;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    cursor: pointer;
+}
+
+.destination-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.destination-card img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.destination-card-content {
+    padding: 14px 16px 16px;
+}
+
+.destination-card-title {
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.destination-card-region {
+    font-size: 13px;
+    color: #555;
+    margin-bottom: 8px;
+}
+
+.destination-card-desc {
+    font-size: 14px;
+    color: #444;
+    margin-bottom: 10px;
+    min-height: 40px;
+}
+
+.destination-card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 13px;
+}
+
+.badge {
+    background: #e0f2fe;
+    color: #0369a1;
+    padding: 4px 10px;
+    border-radius: 999px;
+}
+
+.price {
+    color: #f59e0b;
+    font-weight: bold;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    header.main-header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 8px;
+    }
+
+    .hero {
+        padding: 100px 15px;
+    }
+
+    .features {
+        padding: 20px 10px;
+    }
+}

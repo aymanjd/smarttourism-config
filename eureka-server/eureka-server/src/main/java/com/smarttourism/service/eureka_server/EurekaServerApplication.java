@@ -1,4 +1,4 @@
-package com.smarttourism.eurekaserver;
+package com.smarttourism.service.eureka_server;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -8,12 +8,13 @@ spring:
   cloud:
     gateway:
       routes:
+
+        # Route 1 : API REST du microservice tourisme
         - id: service-tourisme
           uri: lb://SERVICE-TOURISME
           predicates:
-            - Path=/tourisme/**
-          filters:
-            - StripPrefix=1
+            - Path=/api/destinations/**
+
 
 eureka:
   client:
